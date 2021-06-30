@@ -377,7 +377,7 @@ fn main() {
                 }
 
                 if history.get(iter).is_none() {
-                    history.push(Vector2f::(x, y));
+                    history.push(Vector2f::new(x, y));
                 }
                 else {
                     history[iter].x = x;
